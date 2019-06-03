@@ -12,7 +12,7 @@ public interface ITrainingCommonConstants {
 	public static final String DEFAULT_SUB_DOMAIN_ID = "aoTeamExercise";
 	//TODO:Please change the data path, it refers to a folder under src/main/resources where all the static data resides
 	//you may not always need to have data for your solution
-	public static final String DATA_PATH = "trainingdata/";
+	public static final String DATA_PATH = "C:/ao/sampledata/";
 
 	//mso names
 	public static final String MSO_NAME_CUSTOMER = "Customer";

@@ -27,12 +27,6 @@ public interface ITrainingPipelineConstants extends ITrainingCommonConstants {
 	public static final String TABLE_NAME_CUSTOMERS = "customers";
 	public static final String QRY_CUSTOMERS = "select * from " + TABLE_NAME_CUSTOMERS;
 
-	// pipeline ids
-	public static final String PIPELINE_ID_EXERCISE1 = "Exercise1DataPipeline";
-	public static final String PIPELINE_ID_EXERCISE2 = "Exercise2DataPipeline";
-	public static final String PIPELINE_ID_EXERCISE3 = "Exercise3DataPipeline";
-	public static final String PIPELINE_ID_EXERCISE4 = "Exercise4DataPipeline";
-
 	public static final String PIPELINE_ID_LOAD_CUSTOMERS_DATA_TO_DB = "LoadCustomersData2DBPipeline";
 	public static final String PIPELINE_ID_LOAD_CUSTOMERS_DATA_TO_ES = "LoadCustomersData2ESPipeline";
 

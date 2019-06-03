@@ -20,6 +20,11 @@ import com.apporchid.solution.training.transformer.AddBillsTransformer;
 @Component
 public class TrainingPipelineBuilder extends AppBasePipelineConfigurationBuilder {
 
+	// pipeline ids
+	public static final String PIPELINE_ID_EXERCISE1 = "Exercise1DataPipeline";
+	public static final String PIPELINE_ID_EXERCISE2 = "Exercise2DataPipeline";
+	public static final String PIPELINE_ID_EXERCISE3 = "Exercise3DataPipeline";
+
 	// Get All Pipelines Here
 	@Override
 	protected List<IPipeline> getPipelines() {

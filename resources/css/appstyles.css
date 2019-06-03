@@ -1,3 +1,24 @@
+.ao-vux-app.samples-appstyle-sampletable .ao-vux-app-header {
+  background: #d43f3a;  
+}
+.ao-vux-app.samples-appstyle-sampletable .ao-vux-app-header .webix_el_vux-label div { 
+  color: #ffffff;
+  line-height: 41px !important;
+}
+.ao-vux-app.samples-appstyle-sampletable .ao-vux-app-header .webix_el_vux-icon.header_icon .webix_icon_button { 
+  margin-top: 0px;
+}
+.ao-vux-app.samples-appstyle-sampletable .ao-vux-app-header .webix_el_vux-icon.header_icon .webix_icon_button .webix_icon { 
+  line-height: 20px;
+  color: #ffffff!important;
+}
+.ao-vux-app.samples-appstyle-sampletable .ao-vux-app-header .webix_el_vux-icon.action_icon span { 
+  color: #ffffff!important;
+  line-height: 22px !important;
+}
+
+
+
 .ao-vux-app.credit-risk-template {
 	border: 2px solid #a21919 !important;
 	border-radius: 10px !important;

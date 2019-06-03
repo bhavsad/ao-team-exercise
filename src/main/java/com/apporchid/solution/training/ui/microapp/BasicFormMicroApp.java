@@ -1,12 +1,16 @@
 package com.apporchid.solution.training.ui.microapp;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+
+import org.springframework.stereotype.Component;
 
 import com.apporchid.foundation.ui.ELayoutDirection;
 import com.apporchid.foundation.ui.config.IUIComponentReferenceConfig;
 import com.apporchid.foundation.ui.config.IUIContainerConfig;
-import com.apporchid.solution.training.ui.builder.TrainingAppsBuilder;
+import com.apporchid.foundation.ui.config.application.IApplicationConfig;
+import com.apporchid.solution.training.ui.WQBaseAppConfigurationBuilder;
 import com.apporchid.vulcanux.common.ui.config.UIContainerConfig;
 import com.apporchid.vulcanux.common.ui.config.layout.RowsColsLayoutConfig;
 import com.apporchid.vulcanux.common.ui.data.OptionsData;
@@ -22,14 +26,22 @@ import com.apporchid.vulcanux.ui.config.uicontrol.SwitchButtonConfig;
 import com.apporchid.vulcanux.ui.config.uicontrol.TextAreaConfig;
 import com.apporchid.vulcanux.ui.config.uicontrol.TextConfig;
 
-public class BasicFormMicroApp {
+@Component
+public class BasicFormMicroApp extends WQBaseAppConfigurationBuilder  {
 	
+	public static final String MICROFLOW_ID = "forms";
+
 	private static String[] optionMF = new String[] { "Male", "Female" };
 	private static String[] optionVegNonVeg = new String[] { "Veg", "Nonveg" };
+
+	private UIControlConfigurationBuilderHelper uiControlConfigHelper;
 	
-	public static IUIContainerConfig<?> getBasicFormControls(TrainingAppsBuilder appsConfigBuilder) {
-		UIControlConfigurationBuilderHelper uiControlConfigHelper = appsConfigBuilder.getUiControlConfigHelper();
-		
+	public BasicFormMicroApp() {
+		super();
+		uiControlConfigHelper = new UIControlConfigurationBuilderHelper();
+	}
+	
+	private IUIContainerConfig<?> getAppConfig() {
 		RowsColsLayoutConfig.Builder layoutConfig = new RowsColsLayoutConfig.Builder().useRows(true);
 		List<IUIComponentReferenceConfig> componentsList = new ArrayList<>();
 		
@@ -143,6 +155,23 @@ public class BasicFormMicroApp {
 				.enableScroll(Boolean.TRUE).build();
 
 		return containerConfig;
+	}
+
+	@Override
+	protected List<IApplicationConfig> getApplications() {
+		IApplicationConfig[] microApp = new IApplicationConfig[] {
+				getApplication(getMicroAppId(), getMicroAppTitle(), getAppConfig()) };
+		return Arrays.asList(microApp);
+	}
+
+	@Override
+	public String getMicroAppId() {
+		return MICROFLOW_ID;
+	}
+
+	@Override
+	public String getMicroAppTitle() {
+		return "Form Example";
 	}
 
 }

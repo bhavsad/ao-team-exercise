@@ -13,6 +13,7 @@ public class ContainerMicroappPipeline extends AppBasePipelineConfigurationBuild
 
 	public static final String PIPELINE_NAME = "ContainerMicroappPipeline";
 
+	@Override
 	protected List<IPipeline> getPipelines() {
 		List<IPipeline> pipelinesList = new ArrayList<>();
 		pipelinesList.add(createPipeline(PIPELINE_NAME, fileTaskBuilderHelper().getExcelTasks(EXCEL_PATH_TEST_DATA_SMALL)));
