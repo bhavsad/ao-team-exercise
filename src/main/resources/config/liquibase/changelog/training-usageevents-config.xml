@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+	
+	 <!--  mandatory -->
+	<changeSet id="training-ue-0000000000001" author="none" runOnChange="true">
+		<update tableName="configuration_property" schemaName="common">
+			<column name="value">true</column>
+			<where>name='usage-analytics.enable'</where>
+		</update>		
+	</changeSet>
+	
+	<!--  mandatory -->
+	<!-- please make sure elastic search is configured properly -->
+	<changeSet id="training-ue-0000000000002" author="none" runOnChange="true">
+		<update tableName="configuration_property" schemaName="common">
+			<column name="value">true</column>
+			<where>name='elasticsearch.isEnabled'</where>
+		</update>		
+	</changeSet>
+		
+	<!--  mandatory -->
+	<changeSet id="training-ue-0000000000003" author="none" runOnChange="true">
+		<update tableName="configuration_property" schemaName="common">
+			<column name="value">true</column>
+			<where>name='usage-analytics.zipcode-boundary.enable-loading'</where>
+		</update>		
+	</changeSet>
+	
+	<!--  optional -->
+	<!-- set to true if you need to enable usage events to be routed through kafka, 
+		set to true in production environment and false in development environment --> 
+	<!-- please make sure kafka is configured properly -->
+	<changeSet id="training-ue-0000000000004" author="none" runOnChange="true">
+		<update tableName="configuration_property" schemaName="common">
+			<column name="value">true</column>
+			<where>name='kafka.kafkaEnabled'</where>
+		</update>		
+	</changeSet>
+
+	<!--  optional -->
+	<changeSet id="training-ue-0000000000005" author="none" runOnChange="true">
+		<update tableName="configuration_property" schemaName="common">
+			<column name="value">true</column>
+			<where>name='usage-analytics.route-event-messages-through-kafka'</where>
+		</update>		
+	</changeSet>
+	
+<!--  appstore -->
+	<changeSet id="ao-db-config-prop-appstore-role-index" author="none" runOnChange="true">
+		<update tableName="configuration_property" schemaName="common">
+			<column name="value">true</column>
+			<where>name='usage-analytics.user-role-index.enable'</where>
+		</update>		
+	</changeSet>	
+	
+</databaseChangeLog>

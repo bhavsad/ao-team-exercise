@@ -1,0 +1,109 @@
+.cuecard-template .cols{
+    box-shadow: 0px 0px 30px -9px rgba(0,0,0,0.22);
+    width: 202px;
+    height: 110px;
+    border-left: 5px solid #5e77f2;
+    padding: 15px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    vertical-align: top;
+ }
+  
+  
+ .cuecard-template .data{
+    font-size:26px;
+    color:#5e77f2;
+ } 
+  
+  .cuecard-template .data span{
+    font-size:20px;
+    color:#303038;
+ } 
+
+  .cuecard-template .cols .label{
+    font-size:14px;
+    color:#303038;
+    padding-top:12px;
+ } 
+.cuecard-template .cols.avg-hits{
+    border-color:#85b83b;
+}  
+.cuecard-template .avg-hits .data{
+    color:#85b83b;
+} 
+  
+.cuecard-template .cols.errors{
+    border-color:#d41e31;
+}  
+.cuecard-template .errors .data{
+    color:#d41e31;
+} 
+  
+.cuecard-template .cols.response{
+    border-color:#eb9f04;
+}  
+.cuecard-template .response .data{
+    color:#eb9f04;
+} 
+
+
+ .user-session .cols{
+   width:50%;
+   display:inline-block;
+   
+ } 
+.user-session .data{
+    font-size:30px;
+    color:#313131;
+    font-weight:700;
+ } 
+  
+.user-session .data span{
+    color:#18b67c;
+ } 
+
+.user-session .label{
+    font-size:14px;
+    color:#313131;
+ } 
+  
+
+.user-session .prevmonth{
+    font-size:12px;
+    color:#313131;
+ } 
+ 
+ .sessions-data{
+     text-align:center;
+ }
+  
+ .sessions-data .cols{
+     display:inline-block;
+     margin-bottom:15px;
+     vertical-align:top;
+     text-align:center;
+ }
+  
+.sessions-data .data{
+    font-size:32px;
+    color:#313131;
+    font-weight:700;
+ } 
+.sessions-data .label{
+    font-size:14px;
+    color:#c8d0da;
+    padding-top:5px;
+  
+ } 
+.sessions-data .previous{
+   padding-top:10px;
+}  
+.sessions-data .previous .change{
+    border:1px solid #8ec674;
+    display:inline-block;
+    border-radius:6px;
+    padding:3px 8px;
+    color:#8ec674;
+    font-size:14px;
+}

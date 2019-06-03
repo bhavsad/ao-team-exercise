@@ -1,0 +1,299 @@
+
+.highlight {
+  background-color: #00B300 !important;
+}
+.rowHighlight {
+  background-color: #FFA500 !important;
+}
+.value_bar_element {
+  background: skyblue;
+  width: 18px;
+  height: 18px;
+  margin-top: 6px;
+  float: left;
+  cursor: pointer;
+}
+.value_selected_bar_element {
+  background: darkblue;
+}
+.svg_brushing {
+  font: 10px sans-serif;
+  padding: 10px;
+}
+.axis,
+.frame {
+  shape-rendering: crispEdges;
+}
+.axis line {
+  stroke: #ddd;
+}
+.axis path {
+  display: none;
+}
+.cell text {
+  font-weight: bold;
+  text-transform: capitalize;
+  fill: black;
+}
+.frame {
+  fill: none;
+  stroke: #aaa;
+}
+.circle_brushing {
+  fill-opacity: 0.7;
+}
+.circle_brushing.hidden {
+  fill: #ccc !important;
+}
+.extent {
+  fill: #000;
+  fill-opacity: 0.125;
+  stroke: #fff;
+}
+
+
+.center-dataview .webix_dataview_item {
+    
+}
+
+
+/*HEADER css*/
+
+
+.webix_view.ao-vux-solution-header.samples-sol-header{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0079e1+0,6dbffc+99 */
+		background: #0079e1; /* Old browsers */
+		background: -moz-linear-gradient(top, #0079e1 0%, #6dbffc 99%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #0079e1 0%,#6dbffc 99%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #0079e1 0%,#6dbffc 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0079e1', endColorstr='#6dbffc',GradientType=0 ); /* IE6-9 */	
+}
+
+/*APP STYLES*/
+
+.ao-vux-app.samples-appstyle-barchart{
+    border: 1px solid #d43f3a;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.19);
+     -moz-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.19);
+    box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.19);
+}
+.ao-vux-app.samples-appstyle-cuecard1 .webix_template {
+  text-align: center;
+}
+
+.ao-vux-app.samples-appstyle-cuecard1{
+	border: 1px solid #0079e1;
+	border-radius:10px;
+}
+
+.ao-vux-app.samples-appstyle-cuecard1 .ao-vux-app-container{
+	background:none;
+}
+.ao-vux-app.samples-appstyle-cuecard1 .ao-vux-microapp .webix_view{
+	background:none;
+}
+
+
+
+.ao-vux-app.samples-appstyle-cuecard1 .ao-vux-app-header .webix_el_vux-label div {
+  color: #d43f3a;
+}
+.ao-vux-app.samples-appstyle-cuecard2 .ao-vux-app-container,
+.ao-vux-app.samples-appstyle-cuecard1 .ao-vux-app-container {
+  border-radius: 10px;
+}
+.ao-vux-app.samples-appstyle-sampletable .ao-vux-app-header {
+  background: #d43f3a;
+}
+.ao-vux-app.samples-appstyle-sampletable .ao-vux-app-header .webix_el_vux-label div {
+  color: #ffffff;
+  line-height: 41px !important;
+}
+.ao-vux-app.samples-appstyle-sampletable .ao-vux-app-header .webix_el_vux-icon.header_icon .webix_icon_button {
+  margin-top: 0px;
+}
+.ao-vux-app.samples-appstyle-sampletable .ao-vux-app-header .webix_el_vux-icon.header_icon .webix_icon_button .webix_icon {
+  line-height: 20px;
+  color: #ffffff!important;
+}
+.ao-vux-app.samples-appstyle-sampletable .ao-vux-app-header .webix_el_vux-icon.action_icon span {
+  color: #ffffff!important;
+  line-height: 22px !important;
+}
+
+/**FONT USAGE**/
+
+.template_font .columns{
+	width:50%;
+	display:inline-block;
+	text-align:center;
+}
+
+.template_font .columns i{
+	font-size:40px;
+	padding-top:15px;
+}
+
+.template_font .columns .classname{
+	padding-top:10px;
+}
+
+.template_font .columns .classname div{
+	font-size:16px;
+}
+
+/**MICROREPEATER**/
+
+.ao-vux-solution-renderer .ao-vux-microrepeater  .ao-vux-app-container{
+	background:none;
+}
+
+.ao-vux-solution-renderer .ao-vux-microrepeater  .webix_view{
+	background:none;
+	border:0px!important
+}
+
+.ao-vux-solution-renderer .ao-vux-microrepeater .webix_scrollview .webix_scroll_cont > div > div{
+	border-radius:6px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+	padding:15px 10px;
+	background:#ffffff;
+	margin-bottom: 10px;
+}
+
+.ao-vux-solution-renderer .ao-vux-microrepeater .webix_template{
+	padding:0px;
+	height: auto;
+}
+
+
+.ao-vux-solution-renderer .ao-vux-microrepeater .webix_template > div:first-child{
+    border-radius:6px;
+	padding: 10px;
+	height: 100%;
+}
+.ao-vux-solution-renderer  .ao-vux-microrepeater .app_title, .ao-vux-solution-renderer  .ao-vux-microrepeater  .app_subtitle{
+	padding-left:15px;
+}
+
+.incident-cuecard{
+	width:33%;
+	display:inline-block;
+}
+
+.incident-cuecard div{
+	background:#ffffff;
+	border-radius:10px;
+	padding:12px 0px;
+	margin:0px 5px;
+}
+
+
+.incident-cuecard h5{
+	font-size:12px;
+	margin-bottom:0px;
+	color:#3C4164;
+	margin-top: 12px;
+}
+
+.incident-cuecard p{
+	font-size:56px;
+	margin:0;
+	color:#3C4164;
+}
+
+.ao-vux-app.samples-appcontainerapp .ao-vux-app {
+	border: 2px solid #a21919 !important;
+    border-radius: 10px !important;
+    -webkit-box-shadow: 2px 1px 9px -4px rgba(0, 0, 0, 0.64) !important;
+    -moz-box-shadow: 2px 1px 9px -4px rgba(0, 0, 0, 0.64) !important;
+    box-shadow: 2px 1px 9px -4px rgba(0, 0, 0, 0.64) !important;
+}
+
+ .ao-vux-app.samples-appcontainerapp .webix_dataview_item{
+ 	margin-right:13px;
+ }
+
+  .ao-vux-app.samples-appcontainerapp .webix_dataview .webix_scroll_cont > div {
+ 	margin-bottom:13px;
+ }
+
+/**EDITFORM**/
+
+.vux-popup.samples-createform{
+	border: 3px solid #0B5D88!important;	
+	border-radius: 8px!important;	
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.5);
+}
+
+/* .vux-popup.samples-createform .ao-vux-microapp {
+    height: auto!important;
+    width: auto!important;
+} */
+
+.vux-popup.samples-createform .webix_layout_toolbar .webix_el_vux-label div{
+	font-size:26px;
+	text-align:center;
+	color: #155999;
+}
+
+.samples-createformconfig.webix_form .webix_control > label, .samples-createformconfig.webix_form .webix_el_box > label{
+	background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(250,252,254,0.12) 52.87%, #B1D3ED 100%);
+	color: #000000;	
+	font-family: Roboto;	
+	font-size: 18px;
+	padding:0px 10px;
+	margin-right: 3px;
+}
+
+.samples-createformconfig .webix_custom_checkbox{
+		border: 1px solid #0B5D88;
+}
+
+.samples-createformconfig .webix_checkbox_1 .webix_custom_checkbox{
+		border: 1px solid #0B5D88;
+		background: #0B5D88;
+}
+
+.samples-createformconfig .webix_checkbox_1 .webix_custom_checkbox:before{
+	    content: "";
+}
+
+
+.samples-createformconfig .webix_el_select .webix_el_box select, .samples-createformconfig .webix_view .webix_layout_form input, .samples-createformconfig .webix_view .webix_layout_form .webix_inp_static, .samples-createformconfig .webix_view .webix_layout_form select, .samples-createformconfig .webix_view .webix_layout_form textarea{
+	border-radius:7px;
+	font-size: 17px;
+    color: #000000;
+}
+
+.samples-createformconfig .webix_el_button .webix_el_box button{
+	background:#306CA6;
+	font-size:17px;
+}
+
+.samples-createformconfig .webix_el_button, .samples-createformconfig  .webix_el_button .webix_el_box{
+	height: inherit!important;
+}
+
+.samples-createformconfig .webix_el_button.cancelbtn .webix_el_box button{
+	background:none;
+	color:#A6A6A6;
+}
+.timeline-component{
+		position:relative;
+	}
+	
+	.timeline-component .icon-holder{
+		position:absolute;
+		top:0;
+		left:0;
+	}
+	.timeline-component .text-holder{
+		padding-left:25px;
+	}
+	.timeline-component .text-holder .data{
+		text-align:left;
+	}
+
+

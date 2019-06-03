@@ -1,0 +1,1998 @@
+.neptune-seachpage-filter .results-count-css div {
+  color: #313131;
+}
+.neptunesol-whatsnewdw .item {
+  position: relative;
+  background: #f8f9f9;
+  border: 1px solid #71B1CE;
+  border-radius: 18px;
+  padding: 18px;
+  height: 100%;
+  width: 99%;
+}
+.neptunesol-whatsnewdw .image {
+  display: inline-block;
+  padding-right: 15px;
+  position: absolute;
+}
+.neptunesol-whatsnewdw .image img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.neptunesol-whatsnewdw .content_section {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  padding-left: 200px;
+  padding-top: 9px;
+}
+.neptunesol-whatsnewdw .content_section .frow {
+  line-height: 12px;
+  height: 20px;
+}
+.neptunesol-whatsnewdw .content_section .frow > div {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 14px;
+}
+.neptunesol-whatsnewdw .content_section .iconimg {
+  position: absolute;
+  top: 23px;
+  font-size: 1.375rem;
+}
+.neptunesol-whatsnewdw .content_section .divider {
+  width: 1px;
+  height: 20px;
+  background: #c9d7df;
+  margin: 0px 10px;
+}
+.neptunesol-whatsnewdw .content_section .ownername div {
+  text-transform: uppercase;
+  color: #37474f;
+}
+.neptunesol-whatsnewdw .content_section .time div {
+  font-family: "Roboto", sans-serif;
+  color: #9B9B9B;
+  padding-left: 3px;
+}
+.neptunesol-whatsnewdw .content_section .updated div {
+  font-family: "Roboto-Bold", sans-serif;
+  color: #9B9B9B;
+}
+.neptunesol-whatsnewdw .content_section .title div {
+  font-family: "Roboto-Bold", sans-serif;
+  color: #0073aa;
+  line-height: 17px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+.neptunesol-whatsnewdw .content_section .title div a {
+  color: #0073aa;
+}
+.neptunesol-whatsnewdw .content_section .title div a:hover {
+  text-decoration: none;
+}
+.neptunesol-whatsnewdw .content_section .description div {
+  font-family: "Roboto", sans-serif;
+  color: #666666;
+  line-height: 21px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  padding-top: 5px;
+}
+.neptunesol-whatsnewdw .content_section .watching div {
+  color: #37474f;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptunesol-recommended {
+  background: #f9f9f9;
+  width: 316px!important;
+  border: 1px solid #71B1CE;
+  border-radius: 0px 0px 10px 10px;
+}
+.neptunesol-recommended .time,
+.neptunesol-recommended .updated {
+  display: inline-block;
+  vertical-align: top;
+}
+.neptunesol-recommended .stname {
+  display: block!important;
+}
+.neptunesol-recommended .stname div {
+  color: #000000;
+}
+.neptunesol-recommended .icon-feedback {
+  position: absolute;
+  left: 0;
+  color: #28c676;
+  top: 14px;
+}
+.neptunesol-recommended .box {
+  border: 1px solid #9dc9dd;
+  border-radius: 10px;
+  margin: 5px 10px;
+  padding: 7px 10px 10px 10px;
+}
+.neptunesol-recommended .box .details {
+  line-height: 13px;
+}
+.neptunesol-recommended .box .details .heading {
+  display: inline-block;
+  width: 140px;
+}
+.neptunesol-recommended .box .details .heading div {
+  color: #9b9b9b;
+}
+.neptunesol-recommended .box .details .datapoints {
+  display: inline-block;
+  padding-left: 3px;
+}
+.neptunesol-recommended .box .details .datapoints div {
+  color: #37474f;
+}
+.neptunesol-recommended .box .details .datapoints div span {
+  color: #9b9b9b;
+  font-family: "Roboto", sans-serif;
+}
+.neptunesol-recommended .box .details .datapoints.vio div {
+  color: #a40000;
+}
+.neptunesol-recommended .item {
+  padding: 10px 10px;
+  border: 0px;
+  margin: 0px 5px;
+  border-bottom: 1px solid #96c2d7;
+  border-radius: 0px;
+  width: 95%;
+  box-shadow: 0px 8px 7px -9px #000000;
+}
+.neptunesol-recommended .content_section {
+  width: 100%;
+  padding: 0px 10px;
+}
+.neptunesol-recommended .content_section .title div {
+  color: #0073aa;
+}
+.neptunesol-recommended .content_section .title div a {
+  color: #0073aa;
+}
+.neptunesol-recommended .content_section .title div a:hover {
+  text-decoration: none;
+}
+.neptunesol-recommended .pop_data {
+  padding-top: 5px;
+  display: inline-block;
+  width: 100%;
+}
+.neptunesol-recommended .pop_data > div {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+}
+.neptunesol-recommended .pop_data > div:last-child {
+  padding-left: 12px;
+}
+.neptunesol-recommended .pop_data .count {
+  text-align: center;
+}
+.neptunesol-recommended .pop_data .water_systems .icon {
+  margin-top: 8px;
+  padding-right: 2px;
+}
+.neptunesol-recommended .pop_data .water_systems .heading div {
+  color: #3333ff;
+}
+.neptunesol-recommended .pop_data .sewer_systems .icon {
+  margin-top: 10px;
+  padding-right: 2px;
+}
+.neptunesol-recommended .pop_data .sewer_systems .heading div {
+  color: #95552b;
+}
+.neptunesol-recommended .pop_data .pop_served div {
+  color: #9B9B9B;
+  font-family: "Roboto", sans-serif;
+  padding-top: 2px;
+}
+.neptunesol-recommended .pop_data .pop_datap div {
+  color: #37474f;
+  font-family: "Roboto-Bold", sans-serif;
+  line-height: 8px;
+}
+.neptunesol-recommended .pop_data .heading div {
+  text-transform: uppercase;
+  padding-left: 3px;
+  padding-top: 4px;
+}
+.neptunesol-recommended .coname div {
+  color: #6b6b6b;
+}
+.neptunesol-recommended .time_row {
+  display: inline-block;
+  line-height: 14px;
+  vertical-align: top;
+  float: left;
+  width: 100%;
+  clear: both;
+}
+.neptunesol-recommended .frow {
+  height: auto!important;
+}
+.neptunesol-recommended .frow .ownername {
+  width: 100%;
+}
+.neptunesol-recommended .frow .ownername div {
+  padding: 3px 0px;
+  color: #0073aa;
+  font-family: "Roboto-Bold", sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 88%;
+  display: inline-block;
+}
+.neptunesol-recommended .frow .ownername div a {
+  color: #0073aa;
+  cursor: pointer;
+}
+.neptunesol-recommended .frow .ownername div a:hover {
+  text-decoration: none;
+}
+.neptunesol-recviewed .item {
+  padding: 0px 10px;
+}
+.neptunesol-recviewed .webix_scroll_cont {
+  height: 100%;
+}
+.neptunesol-recviewed .webix_dataview_item {
+  padding: 15px 5px;
+}
+.neptunesol-recviewed .icon {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 10px;
+  font-size: 1.75rem;
+}
+.neptunesol-recviewed .statename,
+.neptunesol-recviewed .coname {
+  padding-top: 5px;
+}
+.neptunesol-recviewed .statename div span,
+.neptunesol-recviewed .coname div span {
+  font-size: 0.9375rem;
+  position: relative;
+  top: 2px;
+  padding-right: 5px;
+  color: #9b9b9b;
+}
+.neptunesol-recviewed .statename div a,
+.neptunesol-recviewed .coname div a {
+  color: #9b9b9b;
+}
+.neptunesol-recviewed .statename div a:hover,
+.neptunesol-recviewed .coname div a:hover {
+  text-decoration: none;
+  color: #0072AA;
+}
+.neptunesol-recviewed .statename div a:hover span,
+.neptunesol-recviewed .coname div a:hover span {
+  color: #0072AA;
+}
+.neptunesol-recviewed .statename div,
+.neptunesol-recviewed .coname div {
+  font-family: "Roboto-Black", sans-serif;
+}
+.neptunesol-recviewed .systemid div {
+  color: #504F4E;
+  font-family: "Roboto-Bold", sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.neptunesol-recviewed .systemid div a {
+  color: #504F4E;
+  cursor: pointer;
+}
+.neptunesol-recviewed .systemid div a:hover {
+  color: #0072AA;
+}
+.neptunesol-recviewed .content_section {
+  display: inline-block;
+  line-height: 16px;
+  width: 80%;
+  border-left: 1px solid #C8D6DD;
+  padding-left: 8px;
+  margin-left: 8px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  text-decoration: none;
+}
+.neptunesol-recviewed .image {
+  display: inline-block;
+  padding-right: 8px;
+  vertical-align: top;
+}
+.neptunesol-recviewed .coname div {
+  color: #9B9B9B;
+  font-family: "Roboto-Bold", sans-serif;
+  padding-top: 4px;
+  font-size: 0.625rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.neptunesol-recviewed .coname div a {
+  color: #9B9B9B;
+}
+.neptunesol-recviewed .coname div a:hover {
+  color: #0072AA;
+}
+.neptunesol-sresults {
+  padding-top: 15px;
+}
+.neptunesol-sresults .webix_dataview_item {
+  background: none!important;
+  margin: 0 auto;
+  float: none!important;
+}
+.neptunesol-sresults .sresults_icons {
+  position: relative;
+  padding-left: 35px;
+}
+.neptunesol-sresults .sresults_icons:before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  height: 60px;
+  width: 1px;
+  background: #C8D6DD;
+  top: 10px;
+}
+.neptunesol-sresults .item {
+  padding: 10px 15px;
+  border: 1px solid #D0D8DD;
+  background: #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.neptunesol-sresults .content_section {
+  width: 96%;
+  display: inline-block;
+  vertical-align: top;
+}
+.neptunesol-sresults .pop_data {
+  display: inline-block;
+}
+.neptunesol-sresults .pop_data > div {
+  display: inline-block;
+  padding-right: 35px;
+  margin-right: 35px;
+}
+.neptunesol-sresults .pop_data > div:last-child {
+  padding-left: 12px;
+}
+.neptunesol-sresults .pop_data .violations_data {
+  padding-top: 19px;
+  vertical-align: top;
+}
+.neptunesol-sresults .pop_data .violations_data .heading {
+  line-height: 0px;
+}
+.neptunesol-sresults .pop_data .violations_data .heading div {
+  color: #D0021B;
+}
+.neptunesol-sresults .pop_data .violations_data .datapoints {
+  line-height: 18px;
+}
+.neptunesol-sresults .pop_data .violations_data .datapoints div {
+  color: #37474f;
+}
+.neptunesol-sresults .pop_data .violations_data .datapoints div span {
+  color: #9b9b9b;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.625rem;
+  padding-left: 3px;
+}
+.neptunesol-sresults .pop_data .frow .icon {
+  padding-right: 3px;
+}
+.neptunesol-sresults .pop_data .frow .heading {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 13px;
+}
+.neptunesol-sresults .pop_data .frow .heading div {
+  color: #504F4E;
+}
+.neptunesol-sresults .pop_data .water_systems {
+  position: relative;
+}
+.neptunesol-sresults .pop_data .water_systems .icon {
+  color: #3333ff;
+  font-size: 1.125rem;
+}
+.neptunesol-sresults .pop_data .water_systems .headingact {
+  line-height: 8px;
+}
+.neptunesol-sresults .pop_data .water_systems .headingact div {
+  color: #3333ff;
+}
+.neptunesol-sresults .pop_data .water_systems:after {
+  content: '';
+  position: absolute;
+  right: 0px;
+  height: 60px;
+  width: 1px;
+  background: #C8D6DD;
+  top: 10px;
+}
+.neptunesol-sresults .pop_data .sewer_systems {
+  position: relative;
+}
+.neptunesol-sresults .pop_data .sewer_systems .icon {
+  color: #95552b;
+  font-size: 1.125rem;
+}
+.neptunesol-sresults .pop_data .sewer_systems .headingact {
+  line-height: 8px;
+}
+.neptunesol-sresults .pop_data .sewer_systems .headingact div {
+  color: #95552b;
+}
+.neptunesol-sresults .pop_data .sewer_systems:after {
+  content: '';
+  position: absolute;
+  right: 0px;
+  height: 60px;
+  width: 1px;
+  background: #C8D6DD;
+  top: 10px;
+}
+.neptunesol-sresults .pop_data .pop_served div {
+  color: #9B9B9B;
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+}
+.neptunesol-sresults .pop_data .pop_datap div {
+  color: #37474f;
+  line-height: 8px;
+}
+.neptunesol-sresults .pop_data .heading div {
+  text-transform: uppercase;
+  padding-left: 3px;
+  padding-top: 4px;
+}
+.neptunesol-sresults .firstcol {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 15px;
+  height: 80px;
+  padding-right: 40px;
+}
+.neptunesol-sresults .firstcol .ownername div {
+  font-family: "Roboto-Bold", sans-serif;
+  color: #0099CC;
+  text-transform: uppercase;
+}
+.neptunesol-sresults .firstcol .ownername div a {
+  color: #0099CC;
+  cursor: pointer;
+}
+.neptunesol-sresults .firstcol .statename {
+  padding-top: 10px;
+  color: #504F4E;
+}
+.neptunesol-sresults .firstcol .statename span {
+  color: #9b9b9b;
+  padding-right: 5px;
+  font-size: 0.875rem;
+  display: inline-block;
+  /* line-height: 17px; */
+  position: relative;
+  top: 2px;
+}
+.neptunesol-sresults .firstcol .coname {
+  padding-top: 10px;
+}
+.neptunesol-sresults .firstcol .coname div {
+  color: #0099CC;
+  font-family: "Roboto-Bold", sans-serif;
+  padding-top: 4px;
+}
+.neptunesol-sresults .firstcol .coname div a {
+  color: #0099CC;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.neptunesol-sresults .firstcol .coname div span {
+  color: #9b9b9b;
+  padding-right: 5px;
+  font-size: 0.875rem;
+  display: inline-block;
+  /* line-height: 17px; */
+  position: relative;
+  top: 2px;
+}
+.neptunesol-sresults .firstcol .title div a {
+  font-family: "Roboto-Bold", sans-serif;
+  color: #504F4E;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.neptunesol-sresults .firstcol .title div a:hover {
+  text-decoration: none;
+}
+.neptunesol-sresults .firstcol .systemid div {
+  color: #9b9b9b;
+  font-family: "Roboto", sans-serif;
+  line-height: 13px;
+  padding-top: 4px;
+}
+.neptunesol-sresults .firstcol .systemid div span {
+  color: #504F4E;
+  font-family: "Roboto-Bold", sans-serif;
+  width: 100%;
+  display: inline-block;
+  line-height: 15px;
+}
+.neptunesol-sresults .pop-served {
+  display: inline-block;
+  border-right: 1px solid #C8D6DD;
+  padding: 0px 50px 0px 40px;
+  margin-right: 20px;
+  width: 192px;
+}
+.neptunesol-sresults .pop-served .icon {
+  font-size: 2.5rem;
+  color: #1d1e1e;
+}
+.neptunesol-sresults .pop-served .data {
+  display: inline-block;
+  width: 72%;
+}
+.neptunesol-sresults .pop-served .pop_title div {
+  color: #313131;
+  line-height: 12px;
+  font-family: "Roboto-Medium", sans-serif;
+}
+.neptunesol-sresults .pop-served .pop_count div {
+  color: #37474f;
+  font-family: "Roboto-Bold", sans-serif;
+  line-height: 23px;
+}
+.neptunesol-sresults .violations {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px 25px;
+  margin-right: 25px;
+}
+.neptunesol-sresults .violations .heading div {
+  line-height: 13px;
+  color: #313131;
+}
+.neptunesol-sresults .violations .violations_data .columns {
+  width: 140px;
+  border: 1px solid #c7c8c9;
+  padding: 4px 10px;
+  height: 40px;
+  margin-right: 15px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  display: inline-block;
+  vertical-align: top;
+}
+.neptunesol-sresults .violations .violations_data .columns .title {
+  display: inline-block;
+  padding-left: 5px;
+  width: 90%;
+}
+.neptunesol-sresults .violations .violations_data .columns .title div {
+  color: #9B9B9B;
+  font-family: "Roboto-Bold", sans-serif;
+  line-height: 14px;
+  font-size: 0.8125rem;
+}
+.neptunesol-sresults .violations .violations_data .columns .points {
+  vertical-align: top;
+  line-height: 10px;
+  display: inline-block;
+}
+.neptunesol-sresults .violations .violations_data .columns .points div {
+  color: #2884A8;
+  line-height: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.neptunesol-sresults .violations .violations_data .columns .points span {
+  color: #37474f !important;
+}
+.neptunesol-sresults .violations .violations_data .columns .points.red div {
+  color: #941212;
+}
+.neptunesol-sresults .violations .violations_data .columns .points.orange div {
+  color: #C07524;
+}
+.neptunesol-sresults .icon {
+  font-size: 1.25rem;
+  padding-right: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.neptunesol-sresults .icon.pws {
+  color: #3333ff;
+}
+.neptunesol-sresults .misc_icons {
+  margin-top: 0px;
+  display: inline-block;
+  vertical-align: top;
+}
+.neptunesol-sresults .misc_icons span {
+  font-size: 1.375rem;
+  color: #ff5956;
+  margin-left: 18px;
+  cursor: pointer;
+  padding-top: 28px;
+  display: inline-block;
+}
+.neptunesol-sresults .misc_icons .follow_txt {
+  display: inline-block;
+  padding-left: 10px;
+}
+.neptunesol-sresults .misc_icons .follow_txt div {
+  color: #9b9b9b;
+}
+.neptunesol-sresults .icon.sewer {
+  color: #95552b;
+}
+.neptunesol-activities .webix_dataview_item {
+  padding: 12px;
+}
+.neptunesol-latestnews .content_section {
+  padding-left: 0px;
+  width: 100%;
+}
+.neptunesol-latestnews .content_section .title div {
+  padding-bottom: 5px;
+}
+.neptunesol-latestnews .image {
+  position: static;
+  padding-right: 0px;
+}
+.neptunesol-latestnews .item {
+  border: 0px;
+  background: none;
+  width: 80%;
+  padding: 0px;
+  margin: 0 auto;
+}
+.neptunesol-latestnews .date div {
+  color: #787979;
+  line-height: 18px;
+}
+.neptunesol-latestnews .source div {
+  color: #0073b0;
+  padding-bottom: 3px;
+}
+.neptunesol-latestnews .provided div span {
+  font-family: "Roboto", sans-serif;
+  color: #787979;
+}
+.neptunesol-systems {
+  padding: 0px;
+}
+.neptunesol-systems .webix_dataview_item {
+  box-shadow: 0 2px 3px 0 rgba(105, 105, 105, 0.5);
+  border: 1px solid #226E8B;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  width: 98%!important;
+  margin: 12px;
+  padding: 12px;
+}
+.neptunesol-systems .left_colums {
+  width: 73%;
+  display: inline-block;
+  vertical-align: top;
+}
+.neptunesol-systems .right_colums {
+  width: 22%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+.neptunesol-systems .right_colums .nearest {
+  text-align: center;
+}
+.neptunesol-systems .right_colums .nearest .location {
+  color: #2884A8;
+  display: inline-block;
+  font-size: 1.375rem;
+  padding-right: 6px;
+}
+.neptunesol-systems .right_colums .nearest .heading {
+  display: inline-block;
+  vertical-align: top;
+}
+.neptunesol-systems .right_colums .nearest .heading div {
+  color: #2884A8;
+  font-size: 0.8125rem;
+  font-family: "Roboto", sans-serif;
+}
+.neptunesol-systems .right_colums .map_placeholder {
+  border: 1px solid #9de1f6;
+  width: 100%;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  height: 200px;
+}
+.neptunesol-systems .item {
+  position: relative;
+  background: none!important;
+  border: 0px;
+  padding: 0px;
+}
+.neptunesol-systems .image {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 15px;
+  position: absolute;
+  border: 1px solid #060606;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  background-color: #060606;
+  width: 49px;
+  height: 49px;
+  padding: 4px;
+}
+.neptunesol-systems .pop-served {
+  padding: 0px;
+  padding-right: 15px;
+}
+.neptunesol-systems .pop-served .icon {
+  font-size: 1.75rem;
+}
+.neptunesol-systems .violations {
+  padding: 0px;
+}
+.neptunesol-systems .violations .violations_data {
+  height: 50px;
+}
+.neptunesol-systems .firstrow {
+  width: 92%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 68px;
+}
+.neptunesol-systems .firstrow .leftcol {
+  float: left;
+  padding-top: 7px;
+}
+.neptunesol-systems .systemid div {
+  color: #2884A8;
+  line-height: 18px;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptunesol-systems .title div {
+  color: #3E3E3E;
+  line-height: 18px;
+}
+.neptunesol-systems .watersys {
+  color: #51504f;
+}
+.neptunesol-systems .pop_title div {
+  color: #9b9b9b !important;
+}
+.neptunesol-systems .pop_count div {
+  color: #504F4E !important;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 1.125rem;
+  padding-top: 5px;
+}
+.neptunesol-systems .address {
+  width: 180px;
+}
+.neptunesol-systems .system_website {
+  word-wrap: break-word;
+  padding-top: 7px;
+  line-height: 15px;
+}
+.neptunesol-systems .system_website div a {
+  color: #504F4E;
+}
+.neptunesol-systems .system_address div {
+  line-height: 16px;
+  padding-top: 4px;
+  color: #504F4E;
+  word-wrap: break-word;
+}
+.neptunesol-systems .secondrow {
+  padding-top: 25px;
+}
+.neptunesol-systems .secondrow .cols {
+  border: 1px solid #979797;
+  border-radius: 9px;
+  width: auto;
+  height: 64px;
+  padding: 7px;
+  vertical-align: top;
+  min-width: 220px;
+}
+.neptunesol-systems .violations {
+  padding-top: 25px;
+}
+.neptunesol-systems .violations .heading div {
+  color: #1C5A71;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptunesol-systems .violations .heading div a {
+  color: #1C5A71;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.6875rem;
+  padding-left: 5px;
+}
+.neptunesol-systems .violations .violations_data {
+  margin-top: 6px;
+}
+.neptunesol-systems .violations .violations_data .columns .points div {
+  padding-top: 0px;
+  line-height: 28px;
+}
+/*NEPTUNE SYSTEMS OVERVIEW*/
+.neptunesol-systemsview .heading {
+  padding-bottom: 4px;
+}
+.neptunesol-systemsview .heading .seeall {
+  color: #0073B0;
+  margin-left: 6px;
+}
+.neptunesol-systemsview .heading .vux_h7 {
+  display: inline-block;
+}
+.neptunesol-systemsview .heading .vux_h7 div {
+  color: #1C5A71;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptunesol-systemsview .item {
+  border: 1px solid #86d6f0;
+  background-color: #FFFFFF;
+  background: linear-gradient(0deg, #AAD3E3 0%, #C2DDE9 52.58%, #EFF1F7 100%);
+  background: linear-gradient(180deg, #F4F4F8 0%, #A9D7E8 100%);
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  padding: 10px 18px;
+}
+.neptunesol-systemsview .intheading .seeall {
+  color: #0072AA;
+}
+.neptunesol-systemsview .intheading .vio_heading div {
+  color: #1C5A71;
+}
+.neptunesol-systemsview .systems_main .col1 {
+  width: 56%;
+  display: inline-block;
+}
+.neptunesol-systemsview .systems_main .col2 {
+  padding-left: 40px;
+  display: inline-block;
+  vertical-align: top;
+  width: 43%;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername {
+  margin-bottom: 6px;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername .icon {
+  height: 36px;
+  display: inline-block;
+  width: 36px;
+  border: 1px solid #36738A;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background-color: #F8F9FC;
+  vertical-align: top;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername .other_info div {
+  color: #7F7F7F;
+  padding-bottom: 2px;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername .other_info div a {
+  color: #7F7F7F;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername .left_pad {
+  padding-left: 30px;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername .details {
+  border: 1px solid #36738A;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background-color: #F8F9FC;
+  display: inline-block;
+  margin-left: 5px;
+  width: 83%;
+  padding: 6px;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername .details.sm {
+  width: 48%;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername .details.follow {
+  width: 32%;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername .details .fb_logo {
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername .label div {
+  color: #9b9b9b;
+  font-family: "Roboto-Bold", sans-serif;
+  padding-bottom: 2px;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername .name div {
+  color: #504F4E;
+  padding-bottom: 2px;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername .name div a {
+  color: #504F4E;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername .coname {
+  padding-left: 37px;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername .coname div {
+  color: #0072AA;
+  top: 2px;
+  position: relative;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername .coname div a {
+  color: #0072AA;
+}
+.neptunesol-systemsview .systems_main .col2 .ownername .coname div a span {
+  color: #9a9a9a;
+  padding-right: 5px;
+  font-size: 0.875rem;
+  top: 2px;
+  position: relative;
+}
+.neptunesol-systemsview .systems_main .systems {
+  height: 54px;
+  width: 100%;
+  border: 1px solid #1F637D;
+  background-color: #F8F9FC;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.neptunesol-systemsview .systems_main .systems .icon {
+  height: 54px;
+  width: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+.neptunesol-systemsview .systems_main .systems .icon span {
+  color: #5C66E9;
+  font-size: 1.125rem;
+  padding: 15px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.neptunesol-systemsview .systems_main .systems .icon span img {
+  width: 16px;
+}
+.neptunesol-systemsview .systems_main .systems .col {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+}
+.neptunesol-systemsview .systems_main .systems .col.border {
+  border-left: 1px solid #ecedf0;
+}
+.neptunesol-systemsview .systems_main .systems .col .label {
+  display: inline-block;
+  vertical-align: top;
+}
+.neptunesol-systemsview .systems_main .systems .col .label div {
+  color: #9b9b9b;
+  padding-top: 19px;
+  padding-right: 15px;
+}
+.neptunesol-systemsview .systems_main .systems .col .theme div {
+  color: #353FB8;
+}
+.neptunesol-systemsview .systems_main .systems .col .count {
+  display: inline-block;
+  vertical-align: top;
+}
+.neptunesol-systemsview .systems_main .systems .col .count div {
+  color: #51504f;
+  font-family: "Roboto", sans-serif;
+  padding-top: 10px;
+}
+.neptunesol-systemsview .systems_main .systems .col.pop_served .icon img {
+  width: 24px;
+}
+.neptunesol-systemsview .systems_main .systems .col.pop_served .pop_served_col {
+  width: 68%;
+  display: inline-block;
+  vertical-align: top;
+}
+.neptunesol-systemsview .systems_main .systems .col.pop_served .pop_served_col .label {
+  width: 100%;
+}
+.neptunesol-systemsview .systems_main .systems .col.pop_served .pop_served_col .label div {
+  padding-right: 0px;
+  padding-top: 10px;
+}
+.neptunesol-systemsview .systems_main .systems .col.pop_served .pop_served_col .count {
+  width: 100%;
+}
+.neptunesol-systemsview .systems_main .systems .col.pop_served .pop_served_col .count div {
+  padding-top: 4px;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptunesol-systemsview .systems_main .systems.sewersystems .theme div {
+  color: #2884A8;
+  padding-top: 11px;
+}
+.neptunesol-systemsview .systems_main .systems.violationssystems {
+  padding: 0px 15px;
+  height: 66px;
+}
+.neptunesol-systemsview .systems_main .systems.violationssystems .col .count div {
+  color: #504F4E;
+}
+.neptunesol-systemsview .systems_main .systems.violationssystems .col .vux_h2.count div {
+  color: #a40000;
+}
+.neptunesol-systemsview .systems_main .systems.violationssystems .col .label div {
+  color: #504F4E;
+  padding-top: 26px;
+  padding-left: 8px;
+  padding-right: 0px;
+}
+.neptunesol-systemsview .systems_main .systems.violationssystems .tt .count div,
+.neptunesol-systemsview .systems_main .systems.violationssystems .prt .count div {
+  color: #504F4E;
+}
+.neptunesol-systemsview .vio_column {
+  width: 42%!important;
+  height: auto!important;
+  display: inline-block;
+}
+.neptunesol-systemsview .vio_column .label div {
+  color: #504F4E !important;
+  padding-top: 12px!important;
+}
+.neptune-ownerdetails-page .vux-app-container,
+.neptune-landing-page .vux-app-container {
+  background: transparent!important;
+  margin: 0px!important;
+}
+.neptune-ownerdetails-page .webix_view,
+.neptune-landing-page .webix_view {
+  background-color: transparent!important;
+}
+.neptune-ownerdetails-page .webix_layout_line,
+.neptune-landing-page .webix_layout_line {
+  background: transparent!important;
+}
+.neptune-ownerdetails-page .webix_dataview_item,
+.neptune-landing-page .webix_dataview_item {
+  background: none;
+}
+.neptune-landing-page .webix_layout_accordion.accordion_default .webix_accordionitem {
+  box-shadow: none;
+}
+.neptune-landing-page .neptune-recommend-container {
+  margin-top: 22px!important;
+  position: relative;
+}
+.neptune-landing-page .neptune-recommend-container > .webix_layout_line {
+  position: static!important;
+  margin-top: 0px!important;
+}
+.neptune-landing-page .neptune-recommend-container .label_css {
+  background: linear-gradient(0deg, #1B566C 0%, #2D93BB 55.2%, #7EB7D2 100%);
+  border-radius: 9px 9px 0px 0px;
+}
+.neptune-landing-page .neptune-recommend-container .label_css div {
+  padding: 0px 15px;
+  color: #ffffff;
+  border-bottom: 0px;
+}
+.neptune-landing-page .vux-simple-navigation > .webix_layout_line {
+  position: absolute;
+  top: 8px;
+  background: none!important;
+  right: 0;
+}
+.neptune-landing-page .vux-simple-navigation > .webix_layout_line .webix_layout_line {
+  width: 31px!important;
+  float: right;
+}
+.neptune-landing-page .vux-simple-navigation .webix_el_icon {
+  width: 13px!important;
+}
+.neptune-landing-page .webix_layout_accordion.accordion_default .webix_accordionitem .webix_accordionitem_header .webix_accordionitem_button {
+  margin-right: 6px !important;
+  padding-left: 5px;
+}
+.neptune-landing-page .webix_accordionitem_header {
+  position: absolute;
+  top: 75px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.14) !important;
+  border-radius: 0px 0px 4px 4px;
+  right: 100px;
+  width: 133px!important;
+  height: 20px!important;
+  padding: 0px 0px 0px 6px;
+  border: 1px solid #CBD4D9 !important;
+  border-top: 0px!important;
+}
+.neptune-landing-page .webix_accordionitem_header:before {
+  line-height: 18px;
+  vertical-align: top;
+  font-size: 13px;
+  text-align: center;
+  margin-left: 5px;
+}
+.neptune-landing-page .webix_accordionitem_header .webix_accordionitem_button {
+  float: right!important;
+  line-height: 20px;
+  font-size: 0.75rem;
+  border-left: 1px solid #CBD4D9;
+}
+.neptune-landing-page .webix_accordionitem.collapsed {
+  height: 0px!important;
+  border-bottom: 1px solid #c9d5db;
+}
+.neptune-landing-page .webix_accordionitem.collapsed .webix_accordionitem_header {
+  bottom: auto;
+  top: 1px;
+}
+.neptune-landing-page .footer_accordion.webix_view,
+.neptune-landing-page .footer_accordion .webix_view {
+  overflow: initial;
+}
+.neptune-landing-page .label_css div {
+  font-family: "Roboto-Bold", sans-serif;
+  color: #0072AA;
+  border-bottom: 1px solid #c9d5db;
+  font-size: 18px;
+}
+.neptune-landing-page .label_css div span {
+  font-size: 1.75rem;
+  float: left;
+  margin-top: 2px;
+  color: #8a8a8a;
+}
+.neptune-landing-page .webix_accordionitem_body .webix_layout_line {
+  background: #fff !important;
+}
+.neptune-landing-page .webix_accordionitem_body .webix_layout_line .webix_icon_button {
+  padding-top: 5px;
+}
+.neptune-landing-page .accordion_header {
+  color: #1E2D35;
+  font-size: 0.5625rem;
+  font-family: "Roboto-Bold", sans-serif;
+  line-height: 21px;
+}
+.neptune-landing-page .accordion_header span {
+  line-height: 22px;
+  font-size: 0.8125rem;
+  display: inline-block;
+  vertical-align: top;
+}
+.neptune-landing-page .webix_accordionitem_body {
+  border-bottom: 1px solid #c9d5db;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.14) !important;
+}
+.neptune-landing-page .vux-side-navigation .webix_el_icon .webix_icon_button .webix_icon {
+  font-size: 1.3125rem;
+}
+.neptunesol-overviewhead .image {
+  display: inline-block;
+}
+.neptunesol-overviewhead .heading {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.neptunesol-overviewhead .heading div {
+  font-size: 1.125rem;
+  color: #000000;
+}
+.neptunesol-overviewhead .address {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 8px;
+}
+.neptunesol-overviewhead .address div {
+  color: #313131;
+}
+.neptunesol-overviewhead .link {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 8px;
+}
+.neptunesol-overviewhead .link div a {
+  color: #0073B0;
+}
+.neptunesol-overviewhead .sep {
+  background: #D7D7D7;
+  display: inline-block;
+  height: 24px;
+  margin: 0px 15px;
+  width: 1px;
+  /* line-height: 17px; */
+  vertical-align: top;
+  /* padding-top: 9px; */
+  position: relative;
+  top: 5px;
+}
+.neptune-ownerpage-container .webix_multiview {
+  border: 1px solid rgba(45, 129, 85, 0.6) !important;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+.neptune-ownerpage-container .webix_accordionitem.collapsed .webix_accordionitem_header {
+  top: 46px;
+}
+.neptune-ownerpage-container .webix_el_tabbar {
+  height: 36px!important;
+  border-bottom: 0px!important;
+}
+.neptune-ownerpage-container .webix_el_tabbar .webix_item_tab,
+.neptune-ownerpage-container .webix_el_tabbar .webix_item_tab:hover {
+  color: #2884A8;
+  background: none!important;
+  padding-top: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.neptune-ownerpage-container .webix_el_tabbar .webix_item_tab,
+.neptune-ownerpage-container .webix_el_tabbar .webix_item_tab.webix_selected,
+.neptune-ownerpage-container .webix_el_tabbar .webix_item_tab:hover {
+  font-size: 0.875rem;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptune-ownerpage-container .webix_el_tabbar .webix_item_tab.webix_selected {
+  background: linear-gradient(0deg, #1B566C 0%, #2D93BB 55.2%, #7EB7D2 100%) !important;
+  color: #fff;
+}
+.neptune-ownerpage-container .webix_el_tabbar .webix_after_all_tabs {
+  display: none;
+}
+.neptune-ownerpage-container .vux-app-layout.with-header {
+  margin-top: 10px!important;
+}
+.neptune-ownerpage-container .vux-app-layout.with-header .vulcanux-app-header > .webix_scroll_cont {
+  border-bottom: 1px solid #C9D7DF;
+}
+.neptune-ownerpage-container .vux-app-layout.with-header .vulcanux-app-header.with-bg {
+  height: 42px!important;
+  background: none!important;
+}
+.neptune-ownerpage-container .vux-app-layout.with-header .vulcanux-app-header .vux_p_heading div {
+  line-height: 32px !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #7a7a7a;
+}
+.neptune-ownerpage-container .vux-app-layout.with-header .vulcanux-app-header .action_icon span {
+  color: #0072AA !important;
+}
+.neptune-ownerpage-container .vux-app-layout.with-header .vulcanux-app-header .action_icon.external-link {
+  float: right;
+}
+.neptune-ownerpage-container .vux-app-layout.with-header .header_icon {
+  margin-left: 0px!important;
+}
+.neptune-ownerpage-container .vux-app-layout.with-header .header_icon span {
+  color: #7a7a7a !important;
+}
+.neptune-ownerpage-container .map {
+  border: 1px solid #529c9e;
+  border-radius: 8px;
+  margin: 12px;
+}
+.neptune-ownerpage-container .map .webix_layout_line {
+  background: none!important;
+}
+.neptunesol-financialtab .heading {
+  padding-bottom: 25px;
+}
+.neptunesol-financialtab .heading .vux_h7 div {
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptunesol-financialtab .heading > div {
+  display: inline-block;
+}
+.neptunesol-financialtab .heading .vux_h8 {
+  border-left: 1px solid #cfcfcf;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.neptunesol-financialtab .heading .vux_h8 div {
+  color: #0085a8;
+}
+.neptunesol-financialtab .col {
+  border: 1px solid #c9c9c9;
+  border-radius: 10px;
+  padding: 20px;
+  display: inline-block;
+  width: 96.5% !important;
+  margin: 12px;
+  vertical-align: top;
+}
+.neptunesol-financialtab .sub-heading {
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+}
+.neptunesol-financialtab .sub-heading div {
+  font-family: "Roboto-Bold", sans-serif;
+  color: #504F4E;
+}
+.neptunesol-financialtab .boxes {
+  border-radius: 10px;
+  min-width: 200px;
+  border: 1px solid #6cabd0;
+  padding: 8px 10px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.neptunesol-financialtab .boxes .label div {
+  color: #9b9b9b;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptunesol-financialtab .boxes .label div img {
+  position: relative;
+  top: 2px;
+  margin-right: 2px;
+}
+.neptunesol-financialtab .boxes.assets {
+  border: 1px solid #2A8F90;
+}
+.neptunesol-financialtab .boxes.liablities {
+  border: 1px solid #b30000;
+}
+.neptunesol-financialtab .boxes.expense {
+  border: 1px solid #aa91c0;
+}
+.neptunesol-financialtab .boxes .text {
+  padding-top: 5px;
+  padding-left: 22px;
+}
+.neptunesol-financialtab .boxes .text div {
+  color: #504F4E;
+}
+.neptunesol-financialtab .download-docs {
+  float: right;
+  padding-right: 44px !important;
+}
+.neptunesol-financialtab .download-docs .button {
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #0073b0;
+  border-radius: 4px;
+  background-image: -moz-linear-gradient(90deg, #185b76 13%, #2d93bb 59%, #80b6d2 100%);
+  background-image: -webkit-linear-gradient(90deg, #185b76 13%, #2d93bb 59%, #80b6d2 100%);
+  background-image: -ms-linear-gradient(90deg, #185b76 13%, #2d93bb 59%, #80b6d2 100%);
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+.neptunesol-financialtab .download-docs .button span {
+  color: #ffffff;
+  font-size: 0.875rem;
+}
+.neptunesol-financialtab .download-docs .text {
+  display: inline-block;
+  text-align: right;
+  margin-right: 5px;
+  line-height: 12px;
+  cursor: pointer;
+}
+.neptune-ownerpage-container .webix_accordionitem {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.14) !important;
+}
+.neptune-ownerpage-container .webix_accordionitem .map {
+  margin-top: 24px;
+}
+.neptune-ownerpage-container .webix_accordionitem_header {
+  top: 326px;
+  width: 41px!important;
+  height: 22px!important;
+  border: 0px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.14);
+  text-align: center;
+  right: 100px;
+}
+.neptune-ownerpage-container .webix_accordionitem_header .webix_accordionitem_button {
+  font-size: 1rem;
+  border-left: 0px;
+  line-height: 22px;
+}
+.neptune-ownerpage-container .webix_layout_accordion.accordion_default .webix_accordionitem .webix_accordionitem_header .webix_accordionitem_button {
+  margin-right: 0px !important;
+  padding-left: 0px;
+  left: -10px;
+  top: -1px;
+}
+.favs {
+  display: inline-block;
+  cursor: pointer;
+}
+.favs span {
+  font-size: 1.5rem;
+}
+.flname-dn {
+  color: #0072AA;
+}
+.dn-buttons {
+  float: right;
+}
+.dn-buttons span i {
+  margin-right: 5px;
+  color: #0072AA;
+}
+.neptunesol-favs .icon {
+  font-size: 1.75rem;
+  display: inline-block;
+}
+.neptunesol-favs .systemid {
+  line-height: 16px;
+}
+.neptunesol-favs .systemid div {
+  color: #504F4E;
+  text-transform: uppercase;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptunesol-favs .state div {
+  color: #504F4E;
+  text-transform: uppercase;
+}
+.neptunesol-favs .state div span {
+  font-size: 1rem;
+  color: #a6a6a6;
+  padding-right: 4px;
+  position: relative;
+  top: 2px;
+}
+.neptunesol-favs .date {
+  padding-left: 44px;
+  line-height: 20px;
+}
+.neptunesol-favs .date div {
+  color: #504F4E;
+  font-family: "Roboto", sans-serif;
+}
+.neptunesol-favs .date div span {
+  color: #a6a6a6;
+}
+.neptunesol-favs .content_section {
+  border-left: 1px solid #C8D6DD;
+  padding-left: 8px;
+  margin-left: 8px;
+  display: inline-block;
+  vertical-align: top;
+}
+.favs-search.webix_el_search .webix_input_icon {
+  background: none;
+  color: #0072AA;
+}
+.favs-search input:focus {
+  border-color: #0072AA;
+}
+/**VIOLATIONS**/
+/**PROXIMITY**/
+/**MAP POPUP**/
+/**ICON COLORS**/
+.entity-search > .ngcustom-webix {
+  left: 0px!important;
+  top: 0px!important;
+}
+.entity-dropdowns .dropdownbtn .webix_el_box {
+  padding: 0px;
+}
+.entity-dropdowns .dropdownbtn .webix_el_box button {
+  border: 1px solid #cbcbcb;
+  width: 100%;
+  color: #363636;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  position: relative;
+  text-align: left;
+  padding-right: 5px;
+}
+.entity-dropdowns .dropdownbtn .webix_el_box button.webixtype_base,
+.entity-dropdowns .dropdownbtn .webix_el_box button:hover {
+  background-color: #ffffff;
+  color: #363636;
+}
+.entity-dropdowns .dropdownbtn .webix_el_box button .text {
+  float: left;
+}
+.entity-dropdowns .dropdownbtn .webix_el_box button .arrow {
+  border-left: 1px solid #cbcbcb;
+  display: inline-block;
+  color: #0073b0;
+  font-size: 1rem;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 6px;
+  padding-left: 7px;
+  height: 100%;
+  line-height: 29px;
+}
+.entity-dropdowns .dropdownbtn .webix_el_box button:hover,
+.entity-dropdowns .dropdownbtn .webix_el_box button:focus {
+  border: 1px solid #0073b0;
+}
+.entity-dropdowns .spacer {
+  background: #cbcbcb;
+}
+.entity-dropdowns .miscbtn .webix_el_box button {
+  border: 1px solid #cbcbcb;
+  width: 100%;
+  background-color: #ffffff;
+  line-height: 13px !important;
+}
+.entity-dropdowns .miscbtn .webix_el_box button .webix_icon_btn {
+  font-size: 1.25rem;
+  color: #0073b0;
+}
+.entity-dropdowns .miscbtn .webix_el_box button:hover,
+.entity-dropdowns .miscbtn .webix_el_box button:focus {
+  background: #0073b0;
+}
+.entity-dropdowns .miscbtn .webix_el_box button:hover span,
+.entity-dropdowns .miscbtn .webix_el_box button:focus span {
+  color: #ffffff;
+}
+.entity-dropdowns .searchbtn .webix_el_box button {
+  padding: 3px 6px !important;
+}
+.entity-dropdowns .resetbtn .webix_el_box button {
+  padding: 4px 10px !important;
+  border-radius: 4px;
+}
+.entity-dropdowns .dnbtn .webix_el_box button span {
+  font-size: 1.6875rem;
+  line-height: 20px !important;
+}
+.entity-dropdowns-search {
+  text-align: center;
+  background: #FFf;
+}
+.entity-dropdowns-search .dropdownbtn .webix_el_box {
+  padding: 0px;
+}
+.entity-dropdowns-search .dropdownbtn .webix_el_box button {
+  border: 1px solid #cbcbcb;
+  width: 100%;
+  color: #363636;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  position: relative;
+  text-align: left;
+  padding-right: 5px;
+}
+.entity-dropdowns-search .dropdownbtn .webix_el_box button.webixtype_base,
+.entity-dropdowns-search .dropdownbtn .webix_el_box button:hover {
+  background-color: #ffffff;
+  color: #363636;
+}
+.entity-dropdowns-search .dropdownbtn .webix_el_box button .text {
+  float: left;
+}
+.entity-dropdowns-search .dropdownbtn .webix_el_box button .arrow {
+  border-left: 1px solid #cbcbcb;
+  display: inline-block;
+  color: #0073b0;
+  font-size: 1rem;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 5px;
+  padding-left: 5px;
+  height: 100%;
+  line-height: 27px;
+}
+.entity-dropdowns-search .dropdownbtn .webix_el_box button:hover,
+.entity-dropdowns-search .dropdownbtn .webix_el_box button:focus {
+  border: 1px solid #0073b0;
+}
+.entity-dropdowns-search .spacer {
+  background: #cbcbcb;
+}
+.entity-dropdowns-search .miscbtn .webix_el_box button {
+  border: 1px solid #cbcbcb;
+  width: 100%;
+  background-color: #ffffff;
+  line-height: 13px !important;
+}
+.entity-dropdowns-search .miscbtn .webix_el_box button .webix_icon_btn {
+  font-size: 1.25rem;
+  color: #0073b0;
+}
+.entity-dropdowns-search .miscbtn .webix_el_box button:hover,
+.entity-dropdowns-search .miscbtn .webix_el_box button:focus {
+  background: #0073b0;
+}
+.entity-dropdowns-search .miscbtn .webix_el_box button:hover span,
+.entity-dropdowns-search .miscbtn .webix_el_box button:focus span {
+  color: #ffffff;
+}
+.entity-dropdowns-search .searchbtn .webix_el_box button {
+  padding: 3px 6px !important;
+}
+.entity-dropdowns-search .resetbtn .webix_el_box button {
+  padding: 4px 10px !important;
+  border-radius: 4px;
+}
+.entity-dropdowns-search .dnbtn .webix_el_box button span {
+  font-size: 1.6875rem;
+  line-height: 20px !important;
+}
+.combo label {
+  padding-bottom: 0 !important;
+}
+.range-popup .webix_win_content {
+  padding: 0px!important;
+}
+.range-popup .webix_el_checkbox label strong {
+  font-family: "Roboto-Bold", sans-serif;
+}
+.suggest_block {
+  background: #f8f9fc;
+  border-top: 2px solid #eff0f3 !important;
+  overflow: visible;
+}
+.suggest_block .combo label {
+  padding-bottom: 0 !important;
+}
+.suggestauto {
+  box-shadow: none;
+}
+.suggestauto .webix_list .webix_list_item {
+  font-size: 0.75rem;
+  padding: 0px;
+  line-height: 30px;
+  height: 26px!important;
+  text-align: center;
+  border: 2px solid #ffffff;
+  color: #999999;
+  line-height: 22px;
+}
+.suggestauto .webix_list .webix_list_item:hover,
+.suggestauto .webix_list .webix_list_item.webix_selected {
+  color: #508ec8;
+  border: 2px solid #508ec8;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.entity-grid-suggest .webix_ss_header tr:last-child td,
+.entity-grid-suggest .webix_ss_header tr td[rowspan] {
+  border: 0px;
+}
+.entity-grid-suggest .webix_dtable .webix_column > div,
+.entity-grid-suggest .webix_dtable .webix_table_cell {
+  border-bottom: 0px;
+}
+.entity-grid-suggest .webix_dtable .webix_cell:hover {
+  background: #c9d7df;
+}
+.entity-grid-suggest .webix_dtable .webix_cell:nth-child(2n) {
+  background: none;
+}
+.entity-grid-suggest .webix_dtable .webix_cell.webix_row_select {
+  background: #368de4;
+  color: #ffffff;
+}
+/**OR BUTTON***/
+.or-option div {
+  color: #868e96;
+  font-size: 0.75rem;
+  font-family: "Roboto-Bold", sans-serif;
+  text-align: center;
+  position: relative;
+}
+.or-option div:before,
+.or-option div:after {
+  background: #f5f5f5;
+  width: 10px;
+  height: 2px;
+  position: absolute;
+  top: 3px;
+  left: -5px;
+}
+.or-option div:after {
+  right: -5px;
+}
+/**VIOLATIONS POPUP**/
+.violations-popup .yrs-btn button:active,
+.violations-popup .yrs-btn button:hover {
+  background: #ffffff;
+  border: 1px solid #0073b0;
+}
+.violations-popup > .webix_win_content {
+  padding: 0px!important;
+}
+.violations-popup .yrs-btn .webix_el_box button {
+  background: none;
+  border: 1px solid transparent;
+  font-size: 0.875rem;
+  color: #333333;
+  padding: 4px 9px;
+}
+.violations-popup .yrs-btn .webix_el_box button:hover {
+  background: #ffffff;
+  border: 1px solid #0073b0;
+}
+.violations-popup .yrs-btn.active .webix_el_box button {
+  background: none;
+  border: 1px solid transparent;
+  font-size: 0.875rem;
+  color: #333333;
+  padding: 4px 9px;
+  background: #ffffff !important;
+  border: 1px solid #0073b0 !important;
+}
+.violations-popup .webix_form {
+  width: 100%!important;
+}
+.violations-popup .violations_check .selectall div {
+  color: #0073b0;
+  font-size: 0.625rem;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.violations-popup .violations_check .circle {
+  background: #00afe5;
+  width: 10px;
+  height: 10px;
+}
+.active-filter-applied .webix_el_box button {
+  background: none;
+  border: 1px solid #FF8107 !important;
+}
+.active-validation-applied .webix_el_box input {
+  background: none;
+  border: 1px solid red !important;
+}
+/**PROXIMITY SEARCH**/
+.proximity-popup .heading div {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+.proximity-popup .paragaph div {
+  color: #4d4d4d;
+}
+.proximity-popup .distance div {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+/**MAP POPUP**/
+.info_window.vux-popup .vux-app-detail-container .vux-app-detail-container {
+  height: auto !important;
+}
+.neptune-modal .popup-box-bg {
+  background: #0073b0;
+}
+.neptune-modal .popup-box-bg .title div {
+  color: #ffffff;
+  font-size: 0.75rem;
+}
+.neptune-modal .popup-box-bg .number div {
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptune-modal .popup-box-bg .close-icon {
+  color: #ffffff;
+}
+.neptune-modal .box {
+  background: #eef4fa;
+  border: 1px solid #1978bc;
+  height: 43px !important;
+}
+.neptune-modal .box .icons {
+  color: #00afe5;
+  background: #eef4fa;
+}
+.neptune-modal .popup-main-title-count div {
+  color: #005b99;
+  font-size: 1rem;
+}
+.neptune-modal .popup-main-title-box div {
+  color: #0073b0;
+  font-size: 0.75rem;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptune-modal .popup-label-title div {
+  font-size: 0.75rem;
+  font-family: "Roboto-Bold", sans-serif;
+  color: #000000;
+}
+.neptune-modal .popup-label-desc div {
+  font-size: 0.75rem;
+  color: #616161;
+  line-height: 12px !important;
+}
+.neptune-modal .popup-label-link div {
+  font-size: 0.75rem;
+  color: #005b99;
+}
+.neptune-modal .popup-title-second div {
+  color: #000000;
+  font-size: 0.75rem;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptune-modal .popup-miles-count div {
+  color: #000000;
+  font-size: 0.75rem;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptune-modal .popup-miles-address div {
+  color: #0073b0;
+  font-size: 0.625rem;
+}
+.neptune-modal .popup-owner-box {
+  background: #fbfbfb;
+  border: 1px solid #d7d7d7;
+}
+.neptune-modal .popup-owner-box .distance-icon {
+  color: #00aeef;
+}
+.neptune-modal .popup-owner-cityname div {
+  color: #0073b0;
+  font-size: 0.75rem;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptune-modal .popup-owner-type div {
+  color: #b7b7b7;
+  font-size: 0.625rem;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptune-modal .popup-owner-type-text div {
+  color: #000000;
+  font-size: 0.625rem;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptune-modal .popup-owner-details-label div {
+  color: #000000;
+  font-size: 0.75rem;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptune-modal .popup-owner-details-text div {
+  color: #616161;
+  font-size: 0.75rem;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptune-modal .popup-owner-email-text div {
+  color: #005b99;
+  font-size: 0.625rem;
+}
+/**NEPTUNE SEARCH BLOCK**/
+.neptune-search-block {
+  background: #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.neptune-search-block .heading-icon {
+  color: #767eec;
+}
+.neptune-search-block .pws-id div {
+  color: #000000;
+}
+.neptune-search-block .pws-id-number div {
+  color: #707070;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 0.75rem;
+}
+.neptune-search-block .user-team-icon {
+  color: #000000;
+  font-size: 1.125rem;
+}
+.neptune-search-block .title div {
+  color: #767eec;
+}
+.neptune-search-block .pop-served div {
+  color: #000000;
+}
+.neptune-search-block .pop-served-count div {
+  background: #f5f5f5;
+  border: 1px solid #cccccc;
+  padding: 4px;
+  color: #898989;
+  font-size: 1.125rem;
+  font-family: "Roboto-Bold", sans-serif;
+}
+.neptune-search-block .violations-text div {
+  color: #000000;
+}
+.neptune-search-block .violations-num div {
+  color: #005b99;
+  font-family: "Roboto-Medium", sans-serif;
+}
+.neptune-search-block .violations-label div {
+  color: #000000;
+  font-family: "Roboto-Medium", sans-serif;
+}
+.neptune-search-block .violations-seperator div {
+  background: #eeeeee;
+}
+.neptune-search-block .other-det-label div {
+  color: #000000;
+}
+.neptune-search-block .other-det-text div {
+  color: #616161;
+  font-family: "Roboto", sans-serif;
+}
+.neptune-search-block .city-limit div {
+  color: #0073b0;
+}
+.neptune-search-block .city-limit-label div {
+  color: #808080;
+}
+.neptune-search-block .city-limit-text div {
+  color: #000000;
+}
+.neptune-search-block .city-link div {
+  color: #0074a2;
+  text-decoration: underline;
+}
+.neptune-search-block .liked-filled {
+  color: #ff6666;
+  font-size: 1.125rem;
+}
+.neptune-search-block .liked-empty {
+  color: #b7b7b7;
+  font-size: 1.125rem;
+}
+.pop-range-form,
+.pop-range-form .webix_layout_form {
+  width: auto !important;
+}
+.webix_view.suggest_block.webix_layout_line {
+  width: auto !important;
+  margin-top: 6px!important;
+}
+.webix_tree .webix_tree_leaves .webix_tree_item span.tree_value {
+  width: 72%;
+}
+.ownerpage-cuecard-section .map {
+  height: 245px !important;
+}
+.neptune-ownerdetails-page .highcharts-grid {
+  display: none;
+}
+.neptunesol-overviewhead .webix_template {
+  background-color: white !important;
+}
+.neptunesol-favs .systemid div {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

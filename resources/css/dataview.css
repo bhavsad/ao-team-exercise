@@ -1,0 +1,131 @@
+.owners_dataview .webix_dataview_item, .movies .webix_dataview_item.webix_selected
+	{
+	padding: 3px 2px;
+	border-color: #fff;
+	background-image: none;
+	background-color: #fff;
+}
+
+.owners_dataview .webix_dataview_item.webix_selected .overall {
+	background-color: #DBFFB0;
+	background: -moz-linear-gradient(top, #DBFFB0 0%, #D0F4A4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DBFFB0),
+		color-stop(1, #D0F4A4));
+	background: -o-linear-gradient(top, #DBFFB0 0%, #D0F4A4 100%);
+	background: -ms-linear-gradient(top, #DBFFB0 0%, #D0F4A4 100%);
+	background: -moz-linear-gradient(top, #DBFFB0 0%, #D0F4A4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DBFFB0),
+		color-stop(1, #D0F4A4));
+}
+
+.ownersDiv {
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 8px;
+	height: 250px;
+	padding: 10px;
+	color: #303030;
+	text-shadow: 0 1px 0 #FFFFFF;
+	background-color: #e1e4ea;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #edeff4),
+		color-stop(1, #e1e4ea));
+	background: -o-linear-gradient(top, #edeff4 0%, #e1e4ea 100%);
+	background: -ms-linear-gradient(top, #edeff4 0%, #e1e4ea 100%);
+	background: -moz-linear-gradient(top, #edeff4 0%, #e1e4ea 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #edeff4),
+		color-stop(1, #e1e4ea));
+	box-shadow: 0px 1px 1px #d4d7de;
+}
+
+.ownersId {
+	font-size: 14px;
+	color: #df6910;
+	font-weight: bold;
+	float: left;
+	line-height: 20px;
+	height: 40px;
+}
+
+.ownersNameShort {
+	font-size: 12px;
+	height: 40px;
+	line-height: 20px;
+	overflow: hidden;
+	float: left;
+	padding-left: 5px;
+	width: 200px;
+}
+
+.ownersNameLong {
+	height: 40px;
+	line-height: 20px;
+	overflow: hidden;
+	font-weight: bold;
+	float: left;
+	padding-left: 5px;
+	width: 400px;
+}
+
+.ownersNumber {
+	width: 300px;
+	text-align: right;
+}
+
+
+/**dataview common styles**/
+
+.ao-vux-dataview{
+	padding:8px 0px;
+	border-radius:4px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.ao-vux-dataview .cols{
+	width:50%;
+	display:inline-block;
+}
+
+.ao-vux-dataview .full-col{
+	width:100%;
+	display:inline-block;
+}
+
+.ao-vux-dataview .cols .value{
+    float: left;
+    line-height: 18px;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width:100%;
+   
+    padding:0px 10px;
+}
+
+.ao-vux-dataview .cols .value.high{
+   color:#b4222a;
+}
+
+
+.ao-vux-dataview .cols .value .icon{
+  padding-right: 5px;
+    position: relative;
+    top: 1px;
+}
+
+.ao-vux-dataview .cols .label{
+    float: left;
+    color: #7b7b7b;
+    line-height: 16px;
+    font-size: 12px;
+    display: inline-block;
+    font-family:'Roboto-Bold';
+    vertical-align: top;
+    padding:0px 10px;
+}
+
+
+
+

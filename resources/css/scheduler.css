@@ -1,0 +1,209 @@
+/* common style for both day and week view */
+.scheduler-custom-css {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.scheduler-custom-css .dhx_scheduler_day,
+.scheduler-custom-css .dhx_scheduler_week,
+.scheduler-custom-css .dhx_scheduler_month,
+.scheduler-custom-css .dhx_scheduler_timeline {
+  background-color: #f5f5f5;
+}
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_today_button,
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_today_button,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_today_button,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_today_button {
+  color: rgba(0, 0, 0, 0.54);
+}
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_data,
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_data,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_data,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_data {
+  margin: 0 auto 0 2px;
+}
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_data .dhx_cal_event .dhx_event_move.dhx_title,
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_data .dhx_cal_event .dhx_event_move.dhx_title,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_data .dhx_cal_event .dhx_event_move.dhx_title,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_data .dhx_cal_event .dhx_event_move.dhx_title {
+  border-radius: 5px 5px 0 0;
+  color: #d3d3d3;
+  font-size: 11px;
+}
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_data .dhx_cal_event .dhx_body,
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_data .dhx_cal_event .dhx_body,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_data .dhx_cal_event .dhx_body,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_data .dhx_cal_event .dhx_body {
+  border-radius: 0 0 5px 5px;
+  color: #dddd;
+  font-size: 12px;
+  overflow: hidden !important;
+}
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_data .dhx_scale_holder > div,
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_data .dhx_scale_holder > div,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_data .dhx_scale_holder > div,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_data .dhx_scale_holder > div {
+  background-color: #f5f5f5;
+}
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_header,
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_header,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_header,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_header {
+  border: none;
+}
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_header .dhx_scale_bar,
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_header .dhx_scale_bar,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_header .dhx_scale_bar,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_header .dhx_scale_bar {
+  background-color: #f5f5f5;
+  font-size: 12px;
+}
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_scale_placeholder,
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_scale_placeholder,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_scale_placeholder,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_scale_placeholder {
+  box-shadow: 0 8px 5px -5px rgba(0, 0, 0, 0.1);
+  box-sizing: content-box;
+}
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_navline,
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_navline,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_navline,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_navline {
+  padding-left: 10px;
+}
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_navline .dhx_minical_icon,
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_navline .dhx_minical_icon,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_navline .dhx_minical_icon,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_navline .dhx_minical_icon {
+  top: 30px !important;
+  left: -7px !important;
+  position: relative;
+  display: inline-block;
+}
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_navline .dhx_cal_date,
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_navline .dhx_cal_date,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_navline .dhx_cal_date,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_navline .dhx_cal_date {
+  position: relative;
+  top: -10px !important;
+  left: 30px !important;
+  display: inline-block;
+}
+.scheduler-custom-css .dhx_scheduler_day .dhx_month_head,
+.scheduler-custom-css .dhx_scheduler_week .dhx_month_head,
+.scheduler-custom-css .dhx_scheduler_month .dhx_month_head,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_month_head,
+.scheduler-custom-css .dhx_scheduler_day .dhx_month_body,
+.scheduler-custom-css .dhx_scheduler_week .dhx_month_body,
+.scheduler-custom-css .dhx_scheduler_month .dhx_month_body,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_month_body {
+  background-color: #f5f5f5;
+}
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_event_clear,
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_event_clear,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_event_clear,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_event_clear {
+  font-size: 12px;
+}
+/* common  background style */
+.scheduler-custom-css .scheduled {
+  background-color: #2d5596;
+}
+.scheduler-custom-css .incompleted {
+  background-color: #FA8072;
+}
+.scheduler-custom-css .done {
+  background-color: #3CB371;
+}
+.scheduler-custom-css .inprogress {
+  background-color: #FFA07A;
+}
+/* Day and  Week view style */
+.scheduler-custom-css .dhx_scheduler_week .dhx_matrix_scell,
+.scheduler-custom-css .dhx_scheduler_day .dhx_matrix_scell,
+.scheduler-custom-css .dhx_scheduler_month .dhx_matrix_scell,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_matrix_scell {
+  display: none;
+}
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_navline,
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_navline,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_navline,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_navline {
+  padding-left: 10px;
+}
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_navline .dhx_cal_date,
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_navline .dhx_cal_date,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_navline .dhx_cal_date,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_navline .dhx_cal_date {
+  font-size: 11px !important;
+  text-align: left;
+  font-weight: 900;
+}
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_tab,
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_tab,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_tab,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_tab {
+  left: auto !important;
+  right: 65px !important;
+  top: 44px !important;
+  width: 25px;
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.54);
+  border-right: 1px solid #0288d1;
+  height: 10px;
+  line-height: 10px;
+  padding-right: 9px;
+}
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_tab.dhx_cal_tab_first,
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_tab.dhx_cal_tab_first,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_tab.dhx_cal_tab_first,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_tab.dhx_cal_tab_first {
+  left: auto !important;
+  right: 110px !important;
+}
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_tab.dhx_cal_tab_last,
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_tab.dhx_cal_tab_last,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_tab.dhx_cal_tab_last,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_tab.dhx_cal_tab_last {
+  left: auto !important;
+  right: 12px !important;
+  width: 35px;
+  border: none;
+}
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_tab.active,
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_tab.active,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_tab.active,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_tab.active {
+  color: #0288d1;
+  font-size: 10px;
+  background-color: transparent;
+}
+.scheduler-custom-css .dhx_scheduler_week .dhx_cal_data .dhx_body,
+.scheduler-custom-css .dhx_scheduler_day .dhx_cal_data .dhx_body,
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_data .dhx_body,
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_data .dhx_body {
+  font-size: 12px !important;
+  line-height: 12px;
+  padding: 5px;
+}
+/* month view style */
+.scheduler-custom-css .dhx_scheduler_month .dhx_cal_header {
+  left: 1px !important;
+}
+/* timeline view style */
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_navline {
+  padding-left: 10px;
+}
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_navline .dhx_cal_date {
+  top: -9px !important;
+}
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_data .dhx_matrix_scell {
+  display: none;
+}
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_data .dhx_matrix_cell {
+  background-color: #f5f5f5;
+}
+.scheduler-custom-css .dhx_scheduler_timeline .dhx_cal_header {
+  left: 1px !important;
+}

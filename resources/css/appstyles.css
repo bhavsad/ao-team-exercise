@@ -1,0 +1,60 @@
+.ao-vux-app.credit-risk-template {
+	border: 2px solid #a21919 !important;
+	border-radius: 10px !important;
+	-webkit-box-shadow: 2px 1px 9px -4px rgba(0, 0, 0, 0.64) !important;
+	-moz-box-shadow: 2px 1px 9px -4px rgba(0, 0, 0, 0.64) !important;
+	box-shadow: 2px 1px 9px -4px rgba(0, 0, 0, 0.64) !important;
+}
+
+.ao-vux-app.credit-risk-template .ao-vux-app-header .webix_el_vux-icon.header_icon .webix_icon_button .webix_icon
+	{
+	font-size: 32px;
+	color: #bd6668 !important;
+}
+
+.ao-vux-app.credit-risk-template .webix_el_vux-label div {
+	text-align: center;
+	font-size: 22px;
+	color: #3e3e3e;
+}
+
+.ao-vux-app.credit-risk-template .small-label div {
+	text-align: center;
+	font-size: 14px;
+	color: #7c7c7c;
+}
+
+.ao-vux-app.credit-risk-template .cols {
+	width: 50%;
+	display: inline-block;
+	position: relative;
+	padding-top: 18px;
+}
+
+.ao-vux-app.credit-risk-template .cols i {
+	color: #1e4a6e;
+	font-size: 18px;
+	position: absolute;
+	left: 0;
+}
+
+.ao-vux-app.credit-risk-template .data {
+	padding-left: 26px;
+	color: #000000;
+	font-size: 16px;
+}
+
+.ao-vux-app.credit-risk-template .data span {
+	width: 100%;
+	display: inline-block;
+}
+
+.ao-vux-app.credit-risk-template .data span.cont {
+	color: #3e3e3e;
+	font-weight: 700;
+	padding-top: 5px;
+}
+
+.ao-vux-app.credit-risk-template .data span.red {
+	color: #a82727;
+}
