@@ -15,7 +15,7 @@ public class WQMenu {
 
 		menus.put(TRAINING, new String[] { "TrainingPage" });
 
-		menus.put(FORMS, new String[] { "CustomCssPage", "FormPage" });
+		menus.put(FORMS, new String[] { "CustomCssPage", "FormPage", "PopupPage" });
 
 		menus.put(MICRO_FLOW, new String[] { "MicroflowPage" });
 	}

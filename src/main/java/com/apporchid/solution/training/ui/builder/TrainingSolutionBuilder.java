@@ -22,6 +22,7 @@ import com.apporchid.solution.training.ui.microapp.Exercise1MicroApp;
 import com.apporchid.solution.training.ui.microapp.Exercise2MicroApp;
 import com.apporchid.solution.training.ui.microapp.Exercise3MicroApp;
 import com.apporchid.solution.training.ui.microapp.MicroFlowMicroApp;
+import com.apporchid.solution.training.ui.microapp.WQPopUpMicroApp;
 import com.apporchid.vulcanux.config.builder.BaseSolutionConfigurationBuilder;
 
 @Component
@@ -49,7 +50,7 @@ public class TrainingSolutionBuilder extends BaseSolutionConfigurationBuilder im
 		builders.add(Exercise2MicroApp.class);
 		builders.add(Exercise3MicroApp.class);
 		builders.add(MicroFlowMicroApp.class);
-		
+		builders.add(WQPopUpMicroApp.class);
 		return builders;
 	}
 
@@ -61,11 +62,22 @@ public class TrainingSolutionBuilder extends BaseSolutionConfigurationBuilder im
 		solutionPages.add(formsPage());
 		solutionPages.add(microFlowPage());
 		solutionPages.add(customCssPage());
+		solutionPages.add(popPage());
 		
 		ISolutionHeaderConfig solutionHeaderConfig = getSolutionHeader(SOLUTION_LOGO);
-
+		
+		/*New code*/
+		ISolutionPageConfig readOnlyFormPageConfig = getSolutionPageConfig("readOnlyFormPage", "Read Only Form", false, "vuxicon-controls",
+				toApplicationReferences(getReadOnlyFormApplicationIds()));
+		
+		solutionPages.add(readOnlyFormPageConfig);
 		return createSolution(SOLUTION_ID, SOLUTION_NAME, true, true, solutionPages, solutionHeaderConfig, SOLUTION_ICON);
 
+	}
+	
+	/* New Code*/
+	protected String[] getReadOnlyFormApplicationIds() {
+		return new String[] { "readonlyformapp"};
 	}
 	
 	private ISolutionPageConfig microFlowPage() {
@@ -87,6 +99,13 @@ public class TrainingSolutionBuilder extends BaseSolutionConfigurationBuilder im
 		return getSolutionPageConfig("TrainingPage", WQMenu.TRAINING, true, "vuxicon-table", iApplicationReferenceConfigs);
 	}
 
+	
+	
+	private ISolutionPageConfig popPage() {
+		return getSolutionPageConfig("PopupPage", "PopUp", true, "vuxicon-controls", toApplicationReferences(new String[] {WQPopUpMicroApp.MICROFLOW_ID}));
+	}
+	
+	
 	@Override
 	protected String[] getSidebarChildIds(String parentId) {
 		if (parentId != null) {

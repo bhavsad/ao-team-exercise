@@ -28,6 +28,24 @@ var TrainingApiUtils = {
 		chartSeries['data'] = seriesData;
 		chartData.push(chartSeries);
 		return chartData;
+	},
+	
+	openWindowApp: function () {
+		var appUtil = new window['AppUtil']();
+		var appConfig = {
+			id: 'com::apporchid::aoTeamExercise::CustomCSSMicroApp',
+			solutionId: 'com::apporchid::aoTeamExercise::aoTeamExercise',
+			maxWidth: 350,
+			maxHeight: 292,
+			minWidth: 150,
+			minHeight: 150,
+			relativePosition : {
+				relativeCompId: 'openWindowAppId',
+				y: 50,
+				x: 50
+			}
+		}
+		appUtil.openApplication(appConfig);
 	}
 
 };
