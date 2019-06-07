@@ -14,6 +14,7 @@ import com.apporchid.foundation.ui.config.solution.ISolutionPageConfig;
 import com.apporchid.solution.training.constants.ITrainingPipelineConstants;
 import com.apporchid.solution.training.constants.ITrainingSolutionConstants;
 import com.apporchid.solution.training.pipeline.builder.ContainerMicroappPipeline;
+import com.apporchid.solution.training.pipeline.builder.LayoutMicroappPipeline;
 import com.apporchid.solution.training.pipeline.builder.TrainingPipelineBuilder;
 import com.apporchid.solution.training.ui.menu.WQMenu;
 import com.apporchid.solution.training.ui.microapp.BasicFormMicroApp;
@@ -21,6 +22,7 @@ import com.apporchid.solution.training.ui.microapp.CustomCSSMicroApp;
 import com.apporchid.solution.training.ui.microapp.Exercise1MicroApp;
 import com.apporchid.solution.training.ui.microapp.Exercise2MicroApp;
 import com.apporchid.solution.training.ui.microapp.Exercise3MicroApp;
+import com.apporchid.solution.training.ui.microapp.LayoutMicroApp;
 import com.apporchid.solution.training.ui.microapp.MicroFlowMicroApp;
 import com.apporchid.solution.training.ui.microapp.WQPopUpMicroApp;
 import com.apporchid.vulcanux.config.builder.BaseSolutionConfigurationBuilder;
@@ -42,6 +44,7 @@ public class TrainingSolutionBuilder extends BaseSolutionConfigurationBuilder im
 
 		builders.add(TrainingPipelineBuilder.class);
 		builders.add(ContainerMicroappPipeline.class);
+		builders.add(LayoutMicroappPipeline.class);
 		
 		
 		builders.add(CustomCSSMicroApp.class);
@@ -51,6 +54,7 @@ public class TrainingSolutionBuilder extends BaseSolutionConfigurationBuilder im
 		builders.add(Exercise3MicroApp.class);
 		builders.add(MicroFlowMicroApp.class);
 		builders.add(WQPopUpMicroApp.class);
+		builders.add(LayoutMicroApp.class);
 		return builders;
 	}
 
@@ -63,6 +67,7 @@ public class TrainingSolutionBuilder extends BaseSolutionConfigurationBuilder im
 		solutionPages.add(microFlowPage());
 		solutionPages.add(customCssPage());
 		solutionPages.add(popPage());
+		solutionPages.add(layoutPage());
 		
 		ISolutionHeaderConfig solutionHeaderConfig = getSolutionHeader(SOLUTION_LOGO);
 		
@@ -98,7 +103,11 @@ public class TrainingSolutionBuilder extends BaseSolutionConfigurationBuilder im
 		IApplicationReferenceConfig[] iApplicationReferenceConfigs = toApplicationReferences(new String[] { Exercise1MicroApp.MICROFLOW_ID, Exercise2MicroApp.MICROFLOW_ID, Exercise3MicroApp.MICROFLOW_ID });
 		return getSolutionPageConfig("TrainingPage", WQMenu.TRAINING, true, "vuxicon-table", iApplicationReferenceConfigs);
 	}
-
+	private ISolutionPageConfig layoutPage() {
+		return getSolutionPageConfig("LayoutPage","Layout", true, "vuxicon-content",
+			    toApplicationReferences(new String[] { LayoutMicroApp.APP_ID_ROWCOLLAYOUT }));
+		
+	}
 	
 	
 	private ISolutionPageConfig popPage() {
