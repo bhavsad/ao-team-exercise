@@ -20,6 +20,7 @@ public class XLSToDBPipeline  extends AppBasePipelineConfigurationBuilder {
 
 		pipelinesList.add(createPipeline(PIPELINE_NAME, getExcel2DBSinkTasks(EXCEL_PATH_CUSTOMERS, "dinesh_test")));
 		
+		//natraj
 		return pipelinesList;
 	}
 	
